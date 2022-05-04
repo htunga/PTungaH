@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4CD8A"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="move quickly and busily"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/ww"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="italic"
+        android:text="We are Buzz...Your stylish friend, obsessed with helping you clear out the clutter
+   and finding your style so you can finally love and wear everything in your closet." />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/At"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="150dp"
+            android:text="We know it’s hard. So we made it simple."
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/It"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/At"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ww" />
+
+        <TextView
+            android:id="@+id/Bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/It"
+            android:text="Fashion is not about looking like someone else.
+            It’s better than that.
+            It’s an invitation to find out who you truly are."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/Eby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/Bt"
+            android:text="BUY ONLINE"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="10dp"
+            android:text="Buy Now"
+            android:layout_below="@+id/Eby"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

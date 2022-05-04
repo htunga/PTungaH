@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#DF9616"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dialogName"
+        android:layout_height="wrap_content"
+        android:hint="Item"
+        android:layout_margin="10dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dialogAge"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="size"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dialogDepartment"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="color"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dialogGrade"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Discription"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:id="@+id/dialogLevel"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Price"
+        />
+
+</LinearLayout>
